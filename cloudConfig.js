@@ -11,7 +11,7 @@ const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
         folder: "Airbnb_DEV",
-        allowed_formats: ["jpeg", "png", "jpg"],
+        allowedFormats: ["jpeg", "png", "jpg"],
     },
 });
 
